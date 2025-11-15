@@ -1,16 +1,38 @@
-# React + Vite
+ Site Publicado
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Acesse o site funcionando pelo GitHub Pages:
 
-Currently, two official plugins are available:
+ https://rodrigostucki.github.io/11/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ Sobre o Projeto
 
-## React Compiler
+Este template fornece uma configuração mínima para executar React com Vite, incluindo:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Hot Module Replacement (HMR)
 
-## Expanding the ESLint configuration
+ESLint configurado
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Plugin oficial do React para Vite
+
+Plugins disponíveis:
+
+@vitejs/plugin-react
+ — usa Babel (ou oxc com rolldown) para Fast Refresh
+
+@vitejs/plugin-react-swc
+ — usa SWC para Fast Refresh
+
+ React Compiler
+
+O React Compiler não vem habilitado neste template por questões de performance no build e no ambiente de desenvolvimento.
+Se quiser habilitar, siga a documentação oficial:
+
+➡ https://react.dev/learn/react-compiler/installation
+
+ ESLint
+
+Se estiver construindo uma aplicação pronta para produção, recomendamos usar TypeScript com regras avançadas do typescript-eslint.
+
+Veja o template oficial com TS:
+
+➡ https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts
